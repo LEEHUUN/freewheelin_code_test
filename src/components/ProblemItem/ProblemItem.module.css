@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 52px;
+  border-bottom: 1px solid #f5f5f5;
+  margin-bottom: 15px;
+}
+
+.problem-type {
+  font-family: Noto Sans KR;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0px;
+  color: #9f9f9f;
+  width: 15%;
+}
+
+.unit-name {
+  flex: 1;
+  font-family: Noto Sans KR;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0px;
+  color: #4c4c4c;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.button-box {
+  display: flex;
+  margin-left: 25px;
+  gap: 8px;
+}
+
+.img-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.img-box img {
+  margin-bottom: 24px;
+}
+
+.number {
+  padding-left: 9px;
+  box-sizing: border-box;
+  width: 15%;
+  font-family: Noto Sans KR;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px;
+  letter-spacing: 0px;
+  color: #02c7f2;
+}

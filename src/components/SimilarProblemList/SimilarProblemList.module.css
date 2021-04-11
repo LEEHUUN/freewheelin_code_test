@@ -1,0 +1,103 @@
+.content-box {
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+  border-left: 1px solid #e8e8e8;
+  border-right: 2px solid #e0e0e0;
+  max-width: 48vw;
+  height: 100vh;
+  max-height: 95vh;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+  flex: 1;
+  min-height: 500px;
+}
+
+.content-box ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  flex: 1;
+  overflow: auto;
+}
+
+.content-box ul li {
+  padding: 0px 15px 0px 38px;
+  box-sizing: border-box;
+  border-bottom: 8px solid #f5f5f5;
+}
+
+.content-box ul::-webkit-scrollbar {
+  width: 0px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  font-family: Noto Sans KR;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: center;
+  height: 46px;
+  min-height: 46px;
+  border-bottom: 3px solid #f5f5f5;
+  color: #4c4c4c;
+  justify-content: center;
+}
+.sub-header {
+  font-family: Noto Sans KR;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  color: #4c4c4c;
+  margin-left: 25px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.none-problem-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  font-family: Noto Sans KR;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #9f9f9f;
+}
+
+.first-text {
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.border-text {
+  height: 24px;
+  width: 70px;
+  left: 33px;
+  top: 4px;
+  border-radius: 2px;
+  border: 1px solid #e0e0e0;
+  font-family: Noto Sans KR;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0px;
+  color: #00abff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4px;
+}

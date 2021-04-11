@@ -10,14 +10,22 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "axios": "^0.21.1",
+    "node-sass": "^5.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-redux": "^7.2.3",
     "react-scripts": "4.0.3",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-saga": "^1.1.3",
+    "redux-thunk": "^2.3.0",
+    "typesafe-actions": "^5.1.0",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "json-server": "npx json-server ./src/problems/sampledata.json --port 4037",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

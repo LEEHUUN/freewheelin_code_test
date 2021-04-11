@@ -1,0 +1,38 @@
+button {
+  height: 36px;
+  width: 80px;
+  border: 1px solid #e0e0e0;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-family: Noto Sans KR;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+button:hover {
+  color: #ffffff;
+  background: #00abff;
+}
+
+button:active {
+  color: #ffffff;
+  background: #008fd6;
+}
+
+button:focus {
+  outline: none;
+}
+
+.normal {
+  background: #ffffff;
+  color: #00abff;
+}
+
+.active {
+  color: #ffffff;
+  background: #00abff;
+}
